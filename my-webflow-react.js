@@ -25304,10 +25304,11 @@ const RS = /* @__PURE__ */ yS(AS);
 function zS() {
   return /* @__PURE__ */ hb.jsx("h2", { children: "Hello from React in Webflow!" });
 }
-function MS(j) {
+function DS(j) {
   const bt = document.getElementById(j);
   bt && RS.createRoot(bt).render(/* @__PURE__ */ hb.jsx(zS, {}));
 }
+window.renderReactComponent = DS;
 export {
-  MS as renderReactComponent
+  DS as renderReactComponent
 };
